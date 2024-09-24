@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>in.nilesh</groupId>
 	<artifactId>SpringAppDocker</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>v1</version>
 	<name>SpringAppDocker</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -43,6 +43,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>spring-boot-docker-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
