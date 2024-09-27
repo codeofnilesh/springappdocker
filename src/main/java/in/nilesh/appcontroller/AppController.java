@@ -8,7 +8,7 @@ public class AppController {
 
     @GetMapping("/hello")
     public String getMsg(){
-        return "Hello Nilesh";
+        return "Congratulation Nilesh!!";
     }
     @GetMapping(path = "/greet")
     public String getGreet(){
